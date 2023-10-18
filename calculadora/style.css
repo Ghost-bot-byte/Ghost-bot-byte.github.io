@@ -1,0 +1,150 @@
+body {
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h1 {
+    font-size: 40px;
+    color: rgb(54, 54, 54);
+    margin: 1px;
+    margin-top: 10px;
+}
+
+.hr {
+    width: 50px;
+    background-color: rgb(53, 53, 53);
+    height: 4px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.button-ligth {
+    margin-top: 120px;
+    cursor: pointer;
+    margin-left: 220px;
+    border: none;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+}
+
+.button-ligth:hover {
+    background-color: rgb(66, 66, 66);
+    transition: 0.2s ease;
+}
+
+.section-1 {
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.input-calculator {
+     background-color: white;
+     border: none;
+     border-radius: 5px;
+     padding: 0.6rem 2.2rem;
+     color: black;
+     text-align: right;
+     font-size: 15px;
+}
+
+.div-line-one {
+    margin: 1px;
+    margin-top: 20px;
+}
+
+.button-line-one {
+    padding: 0.8rem 1.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-line-one:hover {
+    background-color: rgb(196, 196, 196);
+    transition: 0.1s ease;
+}
+
+.div-line-two {
+    margin: 1px;
+    margin-top: 10px;
+}
+
+.button-line-two {
+    padding: 0.8rem 1.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-line-two:hover {
+    background-color: rgb(196, 196, 196);
+    transition: 0.1s ease;
+}
+
+.div-line-tree {
+    margin: 1px;
+    margin-top: 10px;
+}
+
+.button-line-tree {
+    padding: 0.8rem 1.78rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-line-tree:hover {
+    background-color: rgb(196, 196, 196);
+    transition: 0.1s ease;
+}
+
+.div-line-four {
+    margin: 1px;
+    margin-top: 10px;
+}
+
+.button-line-four {
+    padding: 0.8rem 1.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-line-four:hover {
+    background-color: rgb(196, 196, 196);
+    transition: 0.1s ease;
+}
+
+#button-red {
+    background-color: red;
+}
+
+#button-red:hover {
+    background-color: rgb(204, 20, 20);
+    transition: 0.1s ease;
+}
+
+#button-green {
+    background-color: rgb(13, 199, 13);
+}
+
+#button-green:hover {
+    background-color: rgb(15, 167, 15);
+    transition: 0.1s ease
+}

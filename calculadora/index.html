@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculator</title>
+</head>
+<body>
+     <style>
+          .is-black {
+               color: white;
+               background-color: black;
+          }
+
+          .hr-white {
+               background-color: white;
+          }
+
+          .section-white {
+               box-shadow: rgba(255, 255, 255, 0.123) 0px 22px 70px 4px;
+          }
+     </style>
+    <div>
+        <h1 class="h1" id="h1">Calculator</h1>
+        <hr class="hr" id="hr">
+    </div>
+    <div>
+          <button class="button-ligth" onclick="buttonBackground()"><i class="fa-solid fa-sun" style="color: #ff7b00;"></i> / <i class="fa-solid fa-moon" style="color: #a3a3a3;"></i></button>
+     </div>
+    <section class="section-1" id="section">
+           <div>
+                <input type="text" class="input-calculator" id="input-calculator" disabled>
+           </div>
+           <div class="div-line-one">
+                <button class="button-line-one" name="button-7" onclick="appendToDisplay(this)">7</button>
+                <button class="button-line-one" name="button-8" onclick="appendToDisplay(this)">8</button>
+                <button class="button-line-one" name="button-9" onclick="appendToDisplay(this)">9</button>
+                <button class="button-line-one" name="button-divisao" onclick="appendToDisplay(this)"> / </button>
+           </div>
+           <div class="div-line-two">
+                <button class="button-line-two" name="button-4" onclick="appendToDisplay(this)">4</button>
+                <button class="button-line-two" name="button-5" onclick="appendToDisplay(this)">5</button>
+                <button class="button-line-two" name="button-6" onclick="appendToDisplay(this)">6</button>
+                <button class="button-line-two" name="button-multiplcacao" onclick="appendToDisplay(this)"> * </button>
+           </div>
+           <div class="div-line-tree">
+                <button class="button-line-tree" name="button-1" onclick="appendToDisplay(this)">1</button>
+                <button class="button-line-tree" name="button-2" onclick="appendToDisplay(this)">2</button>
+                <button class="button-line-tree" name="button-3" onclick="appendToDisplay(this)">3</button>
+                <button class="button-line-tree" name="button-menos" onclick="appendToDisplay(this)"> - </button>
+           </div>
+           <div class="div-line-four">
+                <button class="button-line-four" name="button-0" onclick="appendToDisplay(this)">0</button>
+                <button class="button-line-four" name="button-mais" onclick="appendToDisplay(this)"> + </button>
+                <button class="button-line-four" name="button-delete" id="button-red" onclick="buttonDelete()"><i class="fa-solid fa-delete-left" style="color: #ffffff;"></i></button>
+                <button class="button-line-four" name="button-igual" id="button-green" onclick="buttonIgual()">=</button>
+           </div>
+           <div>
+           </div>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
